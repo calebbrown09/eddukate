@@ -1,2 +1,2 @@
-# eddukate
- Este es el codigo de Eddukate
+# Eddukate Beta
+ Este es el codigo que esta escrito Eddukate Beta.
