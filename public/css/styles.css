@@ -1,0 +1,778 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+#intro_curso {
+  width: 100%;
+  position: relative;
+  background: URL("https://www.xmple.com/wallpaper/gradient-purple-blue-linear-5120x2880-c2-0000ff-8a2be2-a-0-f-14.svg");
+  opacity: 50%;
+  background-size: cover;
+  padding: 100px 0 120px 0;
+}
+@media screen and (max-width:480px){
+	body {
+		font-size:100%; // achicamos la fuente en pantallas pequeñas
+	}
+  .video_streaming video {
+    margin-bottom: 20%;
+    width: 100%;
+  }
+  .comments-container {
+    display: none;
+  }
+  .curso_title label {
+    font-size: 15px;
+    margin: auto;
+  }
+  #temario-curso {
+    display: none;
+  }
+  #temario-videos .card{
+    width: 5000px;
+    margin-bottom: 100px;
+
+  }
+  #video-station .video-player {
+    width: 500px;
+  }
+}
+
+.video_streaming {
+  margin: auto;
+}
+#intro_curso .intro-img {
+  width: 50%;
+  float: right;
+}
+
+#intro_curso .intro-info {
+  width: 50%;
+  float: left;
+}
+
+#intro_curso .intro-info label{
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+#intro_curso .intro-info h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#intro_curso .intro-info h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#intro_curso .intro-info span {
+  color: #74b5fc;
+}
+
+#intro_curso .intro-info .btn-get-started,
+#intro_curso .intro-info .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #fff;
+}
+
+#intro_curso .intro-info .btn-get-started {
+  background: #007bff;
+  border: 2px solid #007bff;
+  color: #fff;
+}
+
+#intro_curso .intro-info .btn-get-started:hover {
+  background: none;
+  border-color: #fff;
+  color: #fff;
+}
+
+#intro_curso .intro-info .btn-services {
+  border: 2px solid #fff;
+}
+
+#intro_curso .intro-info .btn-services:hover {
+  background: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+
+.pricing-table{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pricing-table .block-heading {
+  padding-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.pricing-table .block-heading h2 {
+  color: #3b99e0;
+}
+
+.pricing-table .block-heading p {
+  text-align: center;
+  max-width: 420px;
+  margin: auto;
+  opacity: 0.7;
+}
+
+.pricing-table .heading {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pricing-table .item {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+  border-top: 2px solid #5ea4f3;
+  padding: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pricing-table .col-md-5:not(:last-child) .item {
+  margin-bottom: 30px;
+}
+
+.pricing-table .item button {
+  font-weight: 600;
+}
+
+.pricing-table .ribbon {
+  width: 160px;
+  height: 32px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
+  background: #4dbe3b;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -42px;
+  top: 20px;
+  padding-top: 7px;
+}
+
+.pricing-table .item p {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+.pricing-table .features .feature {
+  font-weight: 600; }
+
+.pricing-table .features h4 {
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.pricing-table .price h4 {
+  margin: 15px 0;
+  font-size: 45px;
+  text-align: center;
+  color: #2288f9;
+}
+
+.pricing-table .buy-now button {
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
+  padding: 9px 0;
+}
+/* The alert message box */
+.alert {
+ padding: 20px;
+ background-color: #4fbf30; /* Green */
+ color: white;
+ margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+ margin-left: 15px;
+ color: white;
+ font-weight: bold;
+ float: right;
+ font-size: 22px;
+ line-height: 20px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+ color: black;
+}
+.chat_live {
+  width: 1284px;
+	height: 460px;
+  background-color: black;
+  float: center;
+}
+.cursos_position {
+  margin:auto;
+
+}
+.titulo_video {
+  text-align: center;
+  height: 250px;
+  width: 50%;
+  background-color: powderblue;
+}
+.chat_video {
+  background-color: black;
+}
+.profile_edit {
+  width: auto;
+  height: 350px;
+  background-color: #dbdbe2;
+}
+.profile_edit img {
+  width: 150px;
+  border-radius: 50%;
+  float: left;
+}
+.profile_edit label {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+  margin-left: 50px;
+}
+.profile_edit h3 {
+  font-style: normal;
+  font-size: 15px;
+  margin: 0 0 15px 140px;
+  margin-left: 200px;
+}
+.profile_edit a {
+  margin-left: 50px;
+}
+.countdown {
+  width: auto;
+  height: 120px;
+  background-color: #dbdbe2;
+}
+.countdown h3 {
+  font-size: 15px;
+}
+
+
+.ultimo_curso {
+  width: 299px;
+  height: 150px;
+  background-color: #3c819d;
+}
+.intro-info label a {
+  display: block;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  color: white;
+
+}
+.formulario_1 {
+  width: 400px;
+  height: 578px;
+  background-color: #e4e0f1;
+  border-radius: 5px;
+}
+
+.formulario_1 label {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.formulario_1 h3 {
+  font-size: 15px;
+}
+html {
+  margin: 10px auto;
+  text-align: center;
+}
+.btn-facebook {
+	  background: #3B5998;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #263961;
+    border-radius: 5px;
+	}
+	.btn-facebook:link, .btn-facebook:visited {
+	  color: #fff;
+	}
+	.btn-facebook:active, .btn-facebook:hover {
+	  background: #263961;
+	  color: #fff;
+	}
+
+
+  html {
+    margin: 0px auto;
+    text-align: center;
+  }
+  .btn-twitter {
+  	  background: linear-gradient(to left, #60a9de 0%, #60a9de 50%, #6fb1e1 100%);
+  	  border-radius: 0;
+  	  color: #fff;
+  	  border-width: 1px;
+  	  border-style: solid;
+  	  border-color: #263961;
+      border-radius: 5px;
+  	}
+  	.btn-twitter:link, .btn-twitter:visited {
+  	  color: #fff;
+  	}
+  	.btn-twitter:active, .btn-twitter:hover {
+  	  background: #263961;
+  	  color: #fff;
+  	}
+
+    html {
+      margin: 0px auto;
+      text-align: center;
+    }
+    .btn-enter {
+    	  background: #1ae871;
+    	  border-radius: 0;
+    	  color: #fff;
+    	  border-width: 1px;
+    	  border-style: solid;
+    	  border-color: #263961;
+        border-radius: 5px;
+    	}
+    	.btn-enter:link, .btn-enter:visited {
+    	  color: #fff;
+    	}
+    	.btn-enter:active, .btn-enter:hover {
+    	  background: #263961;
+    	  color: #fff;
+    	}
+
+      html {
+        margin: 0px auto;
+        text-align: center;
+      }
+      .btn-registro {
+      	  background:  #1aa6e8 ;
+      	  border-radius: 0;
+      	  color: #fff;
+      	  border-width: 1px;
+      	  border-style: solid;
+      	  border-color: #263961;
+          border-radius: 5px;
+      	}
+      	.btn-registro:link, .btn-registro:visited {
+      	  color: #fff;
+      	}
+      	.btn-registro:active, .btn-registro:hover {
+      	  background: #263961;
+      	  color: #fff;
+      	}
+.header_curso header h3{
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.section-header h3 {
+  font-size: 25px;
+}
+.button_free button {
+  color: white;
+}
+.profile_header img {
+  width: 70px;
+  border-radius: 50%;
+  float: left;
+
+}
+.profile_header {
+  margin-right: 5px;
+}
+.profile_header label {
+  font-family: 'helvetica';
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 25px;
+}
+.chat_curso {
+  width: 450px;
+  height: 500px;
+  background: #DCF5FF;
+  float: right;
+  position: relative;
+}
+.chat_curso img {
+    width: 50px;
+    border-radius: 50%;
+}
+.curso_title {
+  width: auto;
+  height: 120px;
+  background: #10B2F3;
+}
+.curso_title label {
+  color: white;
+  font-size: 35px;
+  font-family: 'helvetica';
+  font-weight: bold;
+}
+.curso_title label img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin: auto;
+  }
+.profile_header {
+  width: auto;
+  background: white;
+  height: 70px;
+}
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+/**
+ * Oscuro: #283035
+ * Azul: #03658c
+ * Detalle: #c7cacb
+ * Fondo: #dee1e3
+ ----------------------------------*/
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+ }
+
+ a {
+ 	color: #03658c;
+ 	text-decoration: none;
+ }
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
+}
+
+/** ====================
+ * Lista de Comentarios
+ =======================*/
+.comments-container {
+	margin: 60px auto 15px;
+	width: 768px;
+  position: absolute;
+  overflow: scroll;
+  display: none;
+}
+
+.comments-container h1 {
+	font-size: 36px;
+	color: #283035;
+	font-weight: 400;
+}
+
+.comments-container h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.comments-list {
+	margin-top: 30px;
+	position: relative;
+}
+
+/**
+ * Lineas / Detalles
+ -----------------------*/
+.comments-list:before {
+	content: '';
+	width: 2px;
+	height: 100%;
+	background: #c7cacb;
+	position: absolute;
+	left: 32px;
+	top: 0;
+}
+
+.comments-list:after {
+	content: '';
+	position: absolute;
+	background: #c7cacb;
+	bottom: 0;
+	left: 27px;
+	width: 7px;
+	height: 7px;
+	border: 3px solid #dee1e3;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.reply-list:before, .reply-list:after {display: none;}
+.reply-list li:before {
+	content: '';
+	width: 60px;
+	height: 2px;
+	background: #c7cacb;
+	position: absolute;
+	top: 25px;
+	left: -55px;
+}
+
+
+.comments-list li {
+	margin-bottom: 15px;
+	display: none;
+	position: relative;
+}
+
+.comments-list li:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+}
+
+.reply-list {
+	padding-left: 88px;
+	clear: both;
+	margin-top: 15px;
+}
+/**
+ * Avatar
+ ---------------------------*/
+.comments-list .comment-avatar {
+	width: 65px;
+	height: 65px;
+	position: relative;
+	z-index: 99;
+	float: left;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	overflow: hidden;
+  border-radius: 50%;
+  border: 5px;
+  border-color: green;
+}
+
+.comments-list .comment-avatar img {
+	width: 100%;
+	height: 100%;
+  border-radius: 50%;
+}
+
+.reply-list .comment-avatar {
+	width: 50px;
+	height: 50px;
+}
+
+.comment-main-level:after {
+	content: '';
+	width: 0;
+	height: 0;
+	display: block;
+	clear: both;
+}
+/**
+ * Caja del Comentario
+ ---------------------------*/
+.comments-list .comment-box {
+	width: 680px;
+	float: right;
+	position: relative;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+
+.comments-list .comment-box:before, .comments-list .comment-box:after {
+	content: '';
+	height: 0;
+	width: 0;
+	position: absolute;
+	display: block;
+	border-width: 10px 12px 10px 0;
+	border-style: solid;
+	border-color: transparent #FCFCFC;
+	top: 8px;
+	left: -11px;
+}
+
+.comments-list .comment-box:before {
+	border-width: 11px 13px 11px 0;
+	border-color: transparent rgba(0,0,0,0.05);
+	left: -12px;
+}
+
+.reply-list .comment-box {
+	width: 610px;
+}
+.comment-box .comment-head {
+	background: #FCFCFC;
+	padding: 10px 12px;
+	border-bottom: 1px solid #E5E5E5;
+	overflow: hidden;
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+
+.comment-box .comment-head i {
+	float: right;
+	margin-left: 14px;
+	position: relative;
+	top: 2px;
+	color: #A6A6A6;
+	cursor: pointer;
+	-webkit-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
+}
+
+.comment-box .comment-head i:hover {
+	color: #03658c;
+}
+
+.comment-box .comment-name {
+	color: #283035;
+	font-size: 14px;
+	font-weight: 700;
+	float: left;
+	margin-right: 10px;
+}
+
+.comment-box .comment-name a {
+	color: #283035;
+}
+
+.comment-box .comment-head span {
+	float: left;
+	color: #999;
+	font-size: 13px;
+	position: relative;
+	top: 1px;
+}
+
+.comment-box .comment-content {
+	background: #FFF;
+	padding: 12px;
+	font-size: 15px;
+	color: #595959;
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+
+.comment-box .comment-name.by-author, .comment-box .comment-name.by-author a {color: #03658c;}
+.comment-box .comment-name.by-author:after {
+	content: 'autor';
+	background: #03658c;
+	color: #FFF;
+	font-size: 12px;
+	padding: 3px 5px;
+	font-weight: 700;
+	margin-left: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/** =====================
+ * 
+ sive
+ ========================*/
+@media only screen and (max-width: 766px) {
+	.comments-container {
+		width: 480px;
+	}
+
+	.comments-list .comment-box {
+		width: 390px;
+	}
+
+	.reply-list .comment-box {
+		width: 320px;
+  }
+}
+
+
+.title_curso {
+  width: auto;
+  height: 100px;
+  background: URL("https://www.xmple.com/wallpaper/gradient-purple-blue-linear-5120x2880-c2-0000ff-8a2be2-a-0-f-14.svg");
+}
+.title_curso h3 {
+  font-size: 25px;
+  color: white;
+}
+.title_curso label {
+  font-size: 15px;
+  color: white;
+}
+.list_video {
+  margin: auto;
+}
+@media only screen and (max-width: 766px) {
+	.list_video {
+		width: 480px;
+	}
