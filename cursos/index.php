@@ -56,8 +56,8 @@
                 <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="../img/img_cursos/vb_background.jpg" alt="vb_curso">
                 <div class="card-body">
-                  <h5 class="card-title">Curso de Visual Basic <label class="fa fa-check-circle" style="color: ##3cff33;"></label> </h5>
-                  <button type="button" class="btn btn-warning" style="color: white;">Gratis <label class="fa fa-check-circle" style="color: ##3cff33;"></label></button>
+                  <h5 class="card-title">Curso de Visual Basic <label class="fa fa-check-circle" style="color: #3cff33;"></label> </h5>
+                  <button type="button" class="btn btn-warning" style="color: white;">Gratis <label class="fa fa-check-circle" style="color: #3cff33;"></label></button>
                 </div>
                 <ul class="list-group list-group-flush">
                   <a href="#"><li class="list-group-item"><label class="fa fa-arrow-down"></label>  Modulo Basico</li></a>
@@ -75,8 +75,8 @@
         <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="../img/img_cursos/pseint_background.jpg" alt="pseint_curso">
         <div class="card-body">
-          <h5 class="card-title">Curso de Introducción a Algoritmos con Pseint <label class="fa fa-check-circle" style="color: ##3cff33;"></label> </h5>
-          <button type="button" class="btn btn-warning" style="color: white;">Gratis <label class="fa fa-check-circle" style="color: ##3cff33;"></label></button>
+          <h5 class="card-title">Curso de Introducción a Algoritmos con Pseint <label class="fa fa-check-circle" style="color: #3cff33;"></label> </h5>
+          <button type="button" class="btn btn-warning" style="color: white;">Gratis <label class="fa fa-check-circle" style="color: #3cff33;"></label></button>
         </div>
         <ul class="list-group list-group-flush">
           <a href="#"><li class="list-group-item"><label class="fa fa-arrow-down"></label>  Introduccion al curso</li></a>
