@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Curso de Visual Basic | Eddukate</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="http://eddukate.ga/favicon.ico" rel="icon">
+  <link href="../img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="../../../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="../../../../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../../../../lib/animate/animate.min.css" rel="stylesheet">
+  <link href="../../../../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="../../../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="../../../../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="../../../../module_css/style.css" rel="stylesheet">
+    <link href="../../../../module_css/styles.css" rel="stylesheet">
+
+  <!-- Main Livestrean File -->
+  <link href="https://vjs.zencdn.net/7.5.5/video-js.css" rel="stylesheet">
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+  <link href="http://allfont.es/allfont.css?fonts=cooperhewitt-medium" rel="stylesheet" type="text/css" />
+  <!-- =======================================================
+    Theme Name: NewBiz
+    Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+        <a href="../index.html" class="scrollto"><img src="../../../../img/logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li><a href="../index.php">Clases</a></li>
+          <li><a href="#">Agenda</a></li>
+        </ul>
+
+      </nav><!-- .main-nav -->
+
+    </div>
+
+  </header><!-- #header -->
+  <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+      <ul>
+
+      </ul>
+</nav>
+
+<script type="text/javascript">
+  function setValue() {
+    video = document.getElementById('video');
+    playVid();
+  }
+
+  function checkStatus() {
+    video.addEventListener('canplay',playVid,true);
+  }
+
+  function playVid() {
+  // Create variables for all relevant elements
+  //	var video = document.getElementById('video');
+    var pause =  document.getElementById('pause');
+    var play =  document.getElementById('play');
+    var timer = document.getElementById('timer');
+    var duration = document.getElementById('duration');
+    var volume = document.getElementById('volume');
+    var vUp = document.getElementById('v-up');
+    var vDn = document.getElementById('v-dn');
+    var t; // This is for the timer
+  // Set some initial values in the page
+    volume.firstChild.nodeValue = Math.round(video.volume*10);
+    duration.firstChild.nodeValue = Math.round(video.duration);
+  // Function to begin the timer
+    function startCount() {
+      t = window.setInterval(function() {
+        if (video.ended != true) {
+          timer.firstChild.nodeValue = Math.round(video.currentTime + 1);
+        } else {
+          play.firstChild.nodeValue = 'Play';
+          window.clearInterval(t);
+        }
+      },1000);
+    }
+  // Function to pause the timer
+    function pauseCount() {
+      window.clearInterval(t);
+    }
+    console.log('I am here');
+  // Play & pause when the control is clicked
+    play.addEventListener('click',playControl,false);
+    video.addEventListener('click',playControl,false);
+    video.addEventListener('webkitendfullscreen', function (e) {
+      console.log('Paused', e.srcElement.currentTime);
+    });
+    function playControl() {
+      if (video.paused == false) {
+        video.pause();
+        this.firstChild.nodeValue = 'Play';
+        pauseCount();
+      } else {
+        video.play();
+        this.firstChild.nodeValue = 'Pause';
+        duration.firstChild.nodeValue = Math.round(video.duration);
+        startCount();
+      }
+    }
+  // Increase the volume
+    vUp.addEventListener('click',volUp,false);
+    function volUp() {
+      if (video.volume < 1) {
+        video.volume = Math.round((video.volume + 0.1)*10)/10;
+        volume.firstChild.nodeValue = Math.round(video.volume*10);
+      }
+    }
+  // Decrease the volume
+    vDn.addEventListener('click',volDown,false);
+    function volDown() {
+      if (video.volume > 0) {
+        video.volume = Math.round((video.volume - 0.1)*10)/10;
+        volume.firstChild.nodeValue = Math.round(video.volume*10);
+      }
+    }
+  }
+
+  window.onload = setValue;
+
+</script>
+
+  <div class="curso_title">
+  <label><img src="../img/vb_curso.png" alt=""> Curso de Visual Basic</label>
+  </div>
+  <br>
+  <div class="chat_curso">
+    <div class="chat_curso_2">
+      <center>
+      <div class="detalles_video" style="width: auto; height: auto; background: #10B2F3;">
+        <h3 style="font-size: 30px; color: white;">Detalles del capitulo</h3>
+      </div>
+
+              <label style=" font-size:20px; font-family: 'helvetica'; font-weight: bold; color: black;">Episodio: #1 - </label> <label style="font-size:20px;  font-family: 'helvetica';color: black; ">Suma y Resta</label>
+              <br>
+              <label style=" font-size:20px; font-family: 'helvetica'; font-weight: bold;">Profesor: </label> <label style="font-size:20px;  font-family: 'helvetica'; ">Caleb Brown</label>
+              <p>Sean bienvenidos al curso de Visual Basic de Eddukate. Prepara tu cerebro por que vamos a crear multiples programas y vamos a aprender desde Cero Visual Basic Junto a ti!</p>
+    </center>
+    <br><br>
+
+    </div>
+
+  </div>
+  <!-- <button type="button" class="btn btn-danger">En vivo</button>
+       <button type="button" class="btn btn-danger">Sesion en vivo</button> -->
+  <!-- <button type="button" class="btn btn-success">Clase abierta</button> -->
+<!-- Content here -->
+
+    <div class="video_streaming" style="position: relative;">
+      <div class="container">
+      <video  id="video" controls preload='auto' height="450" width="735" poster="../img/bg_video.png" data-setup='{"techorder" : ["flash"]}'>
+          <source src="https://mediaeddukate.000webhostapp.com/cursos/vb_cursos/telefono/capitulo_1.mp4">
+         </video>
+         <ul class="controls">
+       	<li class="play_pause"><p class="control" id="play"></p></li>
+       	<li class="time"><p><span id="timer"></span> <span id="duration"></span></p></li>
+       	<li class="volume"><p><span class="control" id="v-dn" title="Volume down">
+       	</ul>
+       </div>
+         <!--
+         <iframe height="450" width="870" src="https://www.youtube.com/embed/OhzFYOM6Llw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+         <!--
+         <br><br><br><br>
+        </div>
+
+    <!-- Video Streaming -->
+  </div>
+    <br><br>
+    <!-- Botones del reproductor -->
+    <center>
+  <a href="clase_2.html"> <button type="button" name="button" class="btn btn-success">Mayor o menor..</button></a>
+      </center>
+    <div class="chat_curso_3">
+
+      <!-- Contenedor Principal -->
+	<div class="comments-container" scrolling="yes">
+    <center>
+      <h1>Comentarios</h1>
+    </center>
+    <br>
+    <center>
+    <textarea name="name" rows="8" cols="80" placeholder="Tienes alguna duda? Expresa tus dudas aqui! :)"></textarea>
+    <br>
+    <button type="submit" class="btn btn-success">Comentar</button>
+    <hr>
+  </center>
+		<ul id="comments-list" class="comments-list">
+			<li>
+				<div class="comment-main-level">
+					<!-- Avatar -->
+					<div class="comment-avatar"><img src="https://tentulogo.com/wp-content/uploads/Mark-Zuckerberg.jpg" alt=""></div>
+					<!-- Contenedor del Comentario -->
+					<div class="comment-box">
+						<div class="comment-head">
+							<h6 class="comment-name by-author"><a href="http://creaticode.com/blog">Mark Zuckerberg</a></h6>
+							<span>hace 20 minutos</span>
+							<i class="fa fa-reply"></i>
+							<i class="fa fa-heart"></i>
+						</div>
+						<div class="comment-content">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
+						</div>
+					</div>
+				</div>
+				<!-- Respuestas de los comentarios -->
+				<ul class="comments-list reply-list">
+					<li>
+						<!-- Avatar -->
+						<div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
+						<!-- Contenedor del Comentario -->
+						<div class="comment-box">
+							<div class="comment-head">
+								<h6 class="comment-name"><a href="http://creaticode.com/blog">Lorena Rojero</a></h6>
+								<span>hace 10 minutos</span>
+								<i class="fa fa-reply"></i>
+								<i class="fa fa-heart"></i>
+							</div>
+							<div class="comment-content">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<!-- Avatar -->
+						<div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
+						<!-- Contenedor del Comentario -->
+						<div class="comment-box">
+							<div class="comment-head">
+								<h6 class="comment-name by-author"><a href="http://creaticode.com/blog">Agustin Ortiz</a></h6>
+								<span>hace 10 minutos</span>
+								<i class="fa fa-reply"></i>
+								<i class="fa fa-heart"></i>
+							</div>
+							<div class="comment-content">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
+							</div>
+						</div>
+					</li>
+				</ul>
+			</li>
+
+			<li>
+				<div class="comment-main-level">
+					<!-- Avatar -->
+					<div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
+					<!-- Contenedor del Comentario -->
+					<div class="comment-box">
+						<div class="comment-head">
+							<h6 class="comment-name"><a href="http://creaticode.com/blog">Lorena Rojero</a></h6>
+							<span>hace 10 minutos</span>
+							<i class="fa fa-reply"></i>
+							<i class="fa fa-heart"></i>
+						</div>
+						<div class="comment-content">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
+						</div>
+
+            <div class="comment-box">
+              <div class="comment-head">
+                <h6 class="comment-name"><a href="http://creaticode.com/blog">Lorena Rojero</a></h6>
+                <span>hace 10 minutos</span>
+                <i class="fa fa-reply"></i>
+                <i class="fa fa-heart"></i>
+              </div>
+              <div class="comment-content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
+              </div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <script src="../../../../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../../lib/easing/easing.min.js"></script>
+    <script src="../../../../lib/mobile-nav/mobile-nav.js"></script>
+    <script src="../../../../lib/wow/wow.min.js"></script>
+    <script src="../../../../lib/waypoints/waypoints.min.js"></script>
+    <script src="../../../../lib/counterup/counterup.min.js"></script>
+    <script src="../../../../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../../../../lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../../../../lib/lightbox/js/lightbox.min.js"></script>
+
+<br><br><br>
