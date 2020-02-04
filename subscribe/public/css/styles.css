@@ -1,0 +1,177 @@
+
+body {
+    font-family: 'Poppins', sans-serif;;
+}
+/* Section Premium  */
+#premium {
+    width: auto;
+    height: 700px;
+    background: #f0f4f8;
+    margin-top: 10%;
+}
+
+#premium h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+#premium .futuro span {
+    color: #1bbc9b;
+}
+
+#premium p {
+    font-size: 17px;
+    text-align: center;
+}
+#premium-suscription {
+    width: 24%;
+    height: 50%;
+    background-color: white;
+    margin-left: 24%;
+    border-radius: 10px;
+}
+#premium-suscription h1 {
+    font-size: 32px;
+    color: #242427;
+    opacity: 60%;
+    padding-top:4%;
+    font-weight: bold;
+}
+#premium-suscription h2 {
+    font-size: 15px;
+    text-align: center;
+    padding-top:10%;
+    font-weight: 700;
+    color: white;
+}
+#premium-text {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    padding-bottom: 12%;
+    background: #f7ca19;
+    margin: auto;
+}
+#premium-price h3{
+    font-size: 70px;
+    text-align: center;
+}
+#premium-price span {
+    font-size:20px;
+    margin-right: -4px;
+    padding-bottom: 50%;
+}
+
+#premium-price h4 {
+    font-size: 20px;
+    text-align: center;
+    color: #242427;
+    opacity: 60%;
+}
+#button-sale {
+    width: 45%;
+    height: 20%;
+    background: #1bbc9b;
+    border-radius: 30px;
+    margin: auto;
+}
+
+#button-sale h5 {
+    text-align: center;
+    color: white;
+    padding-top: 15%;
+}
+#premium-suscription a {
+    text-decoration: none;
+}
+#beneficios-premium p {
+    margin-right: 16%;
+    float: right;
+    margin-top:1%;
+    text-decoration: none;
+    text-align: left;
+}
+#metodos-pagos {
+    width: 17%;
+    height: 10%;
+    border-radius: 25px;
+    background: white;
+    margin: auto;
+}
+#metodos-pagos img {
+    margin-top: 5%;
+}
+#metodos-pagos .paypal img {
+    position: relative;
+}
+
+/*  Registro anual section  */ 
+
+#registro {
+    width: 60%;
+    height: 600px;
+    background: #f0f4f8;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 5%;
+}
+
+#beneficios-registro {
+    width: 250px;
+    height: 600px;
+    background: #627d98;
+    float: right;
+}
+
+#text5 {
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 40px;
+}
+
+#text5 img {
+    margin-top: 3px;
+}
+#text6 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+#form * {
+    width: 80%;
+    margin: auto;
+}
+#plan h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+#plan h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 10%;
+    color: #1bbc9b;
+    position: relative;
+    margin-bottom: 60px;
+}
+#plan-anual-price h3{
+    float: right;
+    margin-top:0.59%;
+    margin-right: 17%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#plan-anual-price small {
+    font-size: 15px;
+}
+#plan-anual-price span {
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+#buttom *{
+    width: 50%;
+    margin: auto;
+}

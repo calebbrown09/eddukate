@@ -2,11 +2,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
 
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -33,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -123,7 +125,7 @@ h6 {
   font-size: 16px;
   color: white;
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding-top: 15px;
   margin-top: 70px;
 } 
@@ -220,7 +222,7 @@ h6 {
   position: relative;
   background: #2a3b47;
   --background-alt: #22303a;
-  background: URL('https://cdneddukate.000webhostapp.com/bg_page/planet-cartoon-space-animation-background-footage-090106997_prevstill.jpeg');
+  background: URL('https://www.imaginefactory.com/wp-content/uploads/2017/04/SPACES_BG-2.jpg');
   background-size: cover;
   padding: 100px 0 120px 0;
   
@@ -266,7 +268,7 @@ h6 {
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -355,7 +357,7 @@ h6 {
 
 #intro-curso .intro-info .btn-get-started,
 #intro-curso .intro-info .btn-services {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -390,8 +392,97 @@ h6 {
 #intro-curso .intro-header label {
   color: white;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
+
+/*--------------------------------------------------------------
+# Intro Servicios
+--------------------------------------------------------------*/
+
+#intro-servicios {
+  width: 100%;
+  position: relative;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 100px 0 50px 0;
+  
+}
+
+#intro-servicios .intro-img {
+  width: 400px;
+  height: 300px;
+  float: right;
+}
+
+#intro-servicios .intro-header h1 {
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+
+#intro-servicios .intro-header {
+  font-size: px;
+  color: white;
+  text-align: center;
+}
+#intro-servicios .intro-info {
+  width: 50%;
+}
+
+#intro-servicios .intro-info h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#intro-servicios .intro-info h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+#intro-servicios .intro-info span {
+  color: #74b5fc;
+}
+
+#intro-servicios .intro-info .btn-get-started,
+#intro-servicios .intro-info .btn-services {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 20px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #fff;
+}
+
+#intro-servicios .intro-info .btn-get-started {
+  background: #007bff;
+  border: 2px solid #007bff;
+  color: #fff;
+}
+
+#intro-servicios .intro-info .btn-get-started:hover {
+  background: none;
+  border-color: #fff;
+  color: #fff;
+}
+
+#intro-servicios .intro-info .btn-services {
+  border: 2px solid #fff;
+}
+
+#intro-servicios .intro-info .btn-services:hover {
+  background: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
 
 #temario-curso .header-temario h1 {
   font-size: 20px;
@@ -584,7 +675,7 @@ font-size: 18px;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
 
@@ -905,9 +996,11 @@ font-size: 18px;
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   height: 250px;
-  background: url('../module_img/bg_page/bg1.jpg');
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,142,253,1) 100%);
   color: white;
 }
+
 
 #services .box {
   padding: 30px;
@@ -957,6 +1050,10 @@ font-size: 18px;
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
+}
+
+#services .container h3 {
+  margin-top: 26px;
 }
 
 #why-us {
@@ -1019,7 +1116,7 @@ font-size: 18px;
 }
 
 #why-us .counters span {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
@@ -1029,7 +1126,7 @@ font-size: 18px;
 #why-us .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   color: #cce5ff;
 }
@@ -1390,7 +1487,7 @@ font-size: 18px;
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1400,7 +1497,7 @@ font-size: 18px;
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #888;
 }
 
@@ -1506,14 +1603,14 @@ font-size: 18px;
 --------------------------------------------------------------*/
 
 #footer {
-  background: #106B25;
+  background: #212121;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #259A40;
+  background: #171616;
   padding: 60px 0 30px 0;
 }
 
@@ -1526,7 +1623,7 @@ font-size: 18px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   font-weight: 400;
   letter-spacing: 3px;
@@ -1537,7 +1634,7 @@ font-size: 18px;
   font-size: 13px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #ecf5ff;
 }
 
@@ -1656,6 +1753,9 @@ font-size: 18px;
   #testimonials .testimonial-item p {
     width: 80%;
   }
+  #curso-recomendado {
+    height: 50px;
+  }
  
 }
 
@@ -1710,11 +1810,17 @@ font-size: 18px;
     width: 100%;
 
   }
+  #curso-recomendado {
+    height: 50px;
+  }
 }
 
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+  #curso-recomendado {
+    height: 50px;
   }
 }
 
@@ -1746,6 +1852,9 @@ font-size: 18px;
   #testimonials .testimonial-item p {
     margin-left: 0;
   }
+  #curso-recomendado {
+    height: 50px;
+  }
 }
 
 @media (max-width: 574px) {
@@ -1762,6 +1871,9 @@ font-size: 18px;
   .sponsor-premium { 
     padding-bottom: 200px;
     padding-top: 0.5px; 
+  }
+  #curso-recomendado {
+    height: 50px;
   }
   
 }
@@ -1991,9 +2103,8 @@ vertical-align: middle;
   }
 
   #video-livestream .chat-stream {
-    margin-top: 90%;
+    margin-top: 106%;
     width: 89%;
-    margin-right: 30px;
   }
 
   #video-livestream .video-stream {
@@ -2036,6 +2147,12 @@ vertical-align: middle;
   .no-date-curso {
     width: 10px;
     text-align: center;
+  }
+  #curso-recomendado {
+    height: 50px;
+  }
+  #video-livestream .description-live h1 {
+    font-size: 18px;
   }
 }
 
@@ -2190,4 +2307,77 @@ vertical-align: middle;
   position: absolute;
   
   width: 40%;
+}
+#work h1 {
+    font-size: 20px;
+}
+#curso-recomendado {
+  width: auto;
+  height: 40px;
+  background:#212529;
+}
+#nombre-curso h1 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+#nombre-curso span {
+  color: #00CBFF;
+}
+#title-servicos h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+#servicios-temas {
+  width: 300px;
+  height: 350px;
+  background: black;
+  margin-left: 10%;
+  border-radius: 5%;
+}
+#servicios-temas-description {
+  position: relative;
+  float: right;
+  margin-left: 37%;
+}
+#parrafo {
+  width: 60%;
+}
+.img-services-1 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 100%;
+    position: relative;
+}
+#ads h1{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+#clases {
+  width: 90%;
+  height: 80%;
+  background: #2a3b47;
+  margin: auto;
+  margin-top: 5%;
+  overflow:scroll;
+  border-radius: 2%;
+}
+
+#clases li {
+  margin-top: 10%;
+  font-size: 20px;
+}
+
+#titulo-clases {
+  width: auto;
+  height: 30px;
+  background: #3c5567;
+}
+#titulo-clases h1 {
+  font-size: 20px;
+  color: #ffba42;
+  padding-top: 2px;
 }

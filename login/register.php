@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $title_register; ?></title>
     <!-- Favicons -->
-    <link href="../public/favicon.png" rel="icon">
+    <link href="https://cdneddukate.000webhostapp.com/favicon-eddukate-new.png" rel="icon">
     <!-- Estilos -->
     <link rel="stylesheet" href="../public/css/style.css">
     <link rel="stylesheet" href="../public/css/styles.css">

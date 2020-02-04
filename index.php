@@ -7,10 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $title ?></title>
     <!-- Favicons -->
-    <link href="public/favicon.png" rel="icon">
+    <link href="https://cdneddukate.000webhostapp.com/favicon-eddukate-new.png" rel="icon">
     <!-- Estilos -->
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/styles.css">
+
     <!-- Bootstrap CSS File -->
     <link href="public/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -26,12 +27,9 @@
 </head>
 <body>
 
-
-    <!-- Header Nav -->
+      <!-- Header Nav -->
       <?php include('app/helpers/nav.php'); ?>
       <!-- / Header Nav --> 
-
-      <?php /* include('app/helpers/sponsor/sponsor.php') */ ?>
 
 
       <!-- Cursos nuevos -->
@@ -44,9 +42,8 @@
                 <div class="intro-info">
                   <h2>Descubre tu potencial 
                     <p>
-                    <span style="color: #00CBFF">construye tu futuro.</span>  <h2>
-                  <h1>Encuentra el trabajo de tus sueños en el ámbito de la tecnología, crea tu futuro y descubre tu potencial. Tu futuro está en tus manos.</h1>
-                  <br><br>
+                    <span style="color: #00CBFF">Construye tu futuro.</span>  <h2>
+                  <h1 style="font-size: 22px"><b>Educación Efectiva.</b> ¡No solamente queremos mejorar tu educación, también queremos mejorar tu estilo de vida!</h1>
                   <div>
                     <a href="cursos/" class="btn-get-started scrollto">Empezamos</a>
                   </div>
@@ -54,63 +51,42 @@
       </section>
 
 
-        <!-- Nuevo curso 2  -->
-        <?php /* include('app/helpers/new_curso_2.php'); */ ?>
-        <!-- Nuevo curso 2  -->
+      <!-- Nuevo curso 2  -->
+      <?php /* include('app/helpers/new_curso_2.php'); */ ?>
+      <!-- Nuevo curso 2  -->
+
+
       <br>
 
 
       <!-- Cursos -->
         <?php include('app/helpers/cursos.php') ?>
       <!-- Cursos  -->
-        <br><br><br><br>
 
 
-        <!-- Nuevos cursos  -->
-         <?php include('app/helpers/new_cursos.php') ?>
-        <!-- / Nuevos cursos -->
+      <br>
 
 
-      <br><br><br>
-      <main id="estudiar-online">
-            <div class="header-online">
-                    <h1>Por qué estudiar en Eddukate</h1>
-            </div>
-            <div class="info-online">
-                    <svg class="svg" x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
-                    </svg>
-                    <section class="pt-6 pb-8 bg-default overflow-hidden">
-                            <div class="metodos-pagos-new">
-                                    <h1>Aprende a tu ritmo</h1>
-                                     <p>Aprende una nueva tecnología o refuerza tus materias <p>de la universidad o el instituto y asegura tu empleabilidad.</p></p>
-                                     <center>
-                                      <h1>Profesionales</h1>
-                                      <p>La tecnología cambia demasiado rápido. <p>Mantente actualizado siempre, no seas un profesional obsoleto.</p></p>
-                                      
-                                      <h1>Certificados</h1>
-                                      <p>Recibe un reconocimiento cada vez que termines un curso, workshop o especialidad.</p>
-                                      <a href="cursos/"><button class="btn btn-success">Empieza ya!</button></a>
-                                     <br><br>
-                                     <!--
-                                      <div class="agenda-proximos">
-                                         <a href=""><span style="font-size: 20px; color: black;">¿En qué estamos trabajando?</span></a> 
-                                        
-                                        </div>
-                                      -->
-                                 </center>
-                                 <br><br><br>
-                                 </div>
-                    </section>
-            </div>
-        </div>
-      </main>
-        <!--==========================
+      <!-- Nuevos cursos  -->
+      <?php include('app/helpers/new_cursos.php') ?>
+      <!-- / Nuevos cursos -->
+
+      <br>
+       <!-- Ad Podcast -->
+
+      <?php /* include('app/helpers/sponsor/podast_ad.php'); */?>
+
+      <!-- Premium Ad -->
+
+      <?php include('app/helpers/sponsor/premium.php'); ?> 
+
+      <!--==========================
           Footer
-        ============================-->
+       ============================-->
 
         <?php include('app/helpers/footer.php') ?>
        <!-- #footer -->
+
         <!-- JavaScript Libraries -->
         <script src="public/js/count_2.js"></script>
         <script src="public/js/count.js"></script>

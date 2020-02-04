@@ -1,3 +1,4 @@
+<?php include('cursos/name_cursos/computacion_basica.php'); ?>
 <main id="nuevos-cursos">
         <div class="cursos-header">
             <h1>
@@ -11,17 +12,17 @@
                 <div class="card-columns">
                         <div class="card" style="width: 18rem;">
                                 <div class="img">
-                                        <img src="https://res.cloudinary.com/eddukate/image/upload/v1568595367/bg_page/pseint_background_wsr4r4.jpg" class="card-img-top" alt="...">
+                                        <img src="https://cdneddukate.000webhostapp.com/img_cursos/background.png" class="card-img-top" alt="...">
                                 </div>
                                     <div class="card-body">
                                         <center>
                                             <!-- Curso titulo -->
-                                            <a href="cursos/"> <h5 class="card-title"  style="color: black; display: inline-block;" ><b >Curso de introducción a algoritmos en Pseint</b></h5></a>
-                                        <p class="btn btn-success">Programación</p>
+                                            <a href="http://localhost:8888/eddukate/cursos/computacion-basica/"> <h5 class="card-title"  style="color: black; display: inline-block;" ><b>Curso de <?php echo $titlo_curso_cb; ?></b></h5></a>
+                                        <p class="btn btn-success">Desarrollo personal</p>
                                     </center>
                                       <center>
                                           <!-- Profesor Foto -->
-                                      <p class="card-text"> <img src="https://cdneddukate.000webhostapp.com/1c7e0029-82d4-4ba8-8a05-581974fad304.jpg" alt=""> Caleb Brown </p>
+                                      <p class="card-text"> <img src="https://cdneddukate.000webhostapp.com/1c7e0029-82d4-4ba8-8a05-581974fad304.jpg" alt=""> <?php echo $nombre_profesor_cb; ?> </p>
                                       </center>
                                     </div>
                                   </div>
